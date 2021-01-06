@@ -72,6 +72,11 @@
     and slick-theme.scss (at Slick Slider Theme). Upgrade each area individually.
   - Remove `outline: none` from `.slick-dots li button`
 ==============================================================================*/
+
+html {
+  background-color: #1F873D;
+}
+
 /*================ Slick Slider SCSS ================*/
 .slick-slider {
   position: relative;
@@ -1196,7 +1201,7 @@ h4,
 .h4 {
   font-size: calc(((var(--font-h4-desktop)) / (var(--font-size-base))) * 1em); }
   @media only screen and (max-width: 749px) {
-    
+
     h4,
     .h4 {
       font-size: calc(((var(--font-h4-mobile)) / (var(--font-size-base))) * 1em); } }
@@ -1206,7 +1211,7 @@ h5,
 .h5 {
   font-size: calc(((var(--font-h5-desktop)) / (var(--font-size-base))) * 1em); }
   @media only screen and (max-width: 749px) {
-    
+
     h5,
     .h5 {
       font-size: calc(((var(--font-h5-mobile)) / (var(--font-size-base))) * 1em); } }
@@ -1216,7 +1221,7 @@ h6,
 .h6 {
   font-size: calc(((var(--font-h6-desktop)) / (var(--font-size-base))) * 1em); }
   @media only screen and (max-width: 749px) {
-    
+
     h6,
     .h6 {
       font-size: calc(((var(--font-h6-mobile)) / (var(--font-size-base))) * 1em); } }
@@ -1796,7 +1801,7 @@ select,
   padding-left: 15px;
   padding-bottom: 8px; }
   @media only screen and (min-width: 750px) {
-    
+
     select,
     .disclosure__toggle {
       padding-top: 10px;
@@ -2000,7 +2005,7 @@ textarea {
 
 .input-group__btn {
   flex-grow: 1; }
-  
+
   .input-group__btn .btn,
   .input-group__btn .shopify-payment-button .shopify-payment-button__button--unbranded,
   .shopify-payment-button .input-group__btn .shopify-payment-button__button--unbranded {
@@ -2010,6 +2015,10 @@ textarea {
 /*================ #Site Nav and Dropdowns ================*/
 .site-nav--centered {
   padding-bottom: 22px; }
+
+.site-nav {
+  background-color: #1F873D;
+}
 
 /*================ Site Nav Links ================*/
 .site-nav__link.site-nav--active-dropdown {
