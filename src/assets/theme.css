@@ -2013,11 +2013,17 @@ textarea {
     border-radius: 0 2px 2px 0; }
 
 /*================ #Site Nav and Dropdowns ================*/
-.site-nav--centered {
-  padding-bottom: 22px; }
-
 .site-nav {
-  background-color: #1F873D;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  line-height: 4;
+  font-size: large;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-nav a  {
+  padding: 0px 10px;
 }
 
 /*================ Site Nav Links ================*/
